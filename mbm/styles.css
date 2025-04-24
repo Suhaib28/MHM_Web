@@ -1,0 +1,248 @@
+/* General Reset and Body Styling */
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3e6; /* Off-white background for a vintage look */
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #9f2b25; /* Vintage red for header */
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #d9ad8b; /* Light beige accent border */
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Section Styles */
+.intro, .features, .history, .about, .gallery, .contact, .trivia, .newsletter {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f3e6; /* Off-white background */
+}
+
+/* Large Headings for Sections */
+.intro h3, .features h2, .history h2, .about h2, .gallery h2, .contact h2, .trivia h2, .newsletter h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #9f2b25; /* Vintage red color for headings */
+}
+
+/* Paragraph Text */
+.intro p, .features p, .history p, .about p, .gallery p, .contact p, .trivia p, .newsletter p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Feature Item Styling */
+.feature-item h3 {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    color: #d9ad8b; /* Light beige color for feature item titles */
+}
+
+.feature-item p {
+    font-size: 1.2rem;
+    color: #444;
+}
+
+/* Highlighting Important Text */
+.highlight {
+    color: #9f2b25; /* Vintage red for highlights */
+    font-weight: bold;
+}
+
+/* Buttons */
+.download-btn {
+    background-color: #9f2b25; /* Vintage red */
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.newsletter h3, .contact h3, .trivia h3 {
+    font-size: 2.5rem;
+    color: #9f2b25; /* Vintage red for h3 elements */
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.newsletter form, .contact form, .trivia-form {
+    margin-top: 20px;
+}
+
+.newsletter input, .contact input, .contact textarea, .trivia input {
+    padding: 15px;
+    font-size: 1.2rem;
+    width: 60%;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 2px solid #d9ad8b; /* Light beige border */
+}
+
+.newsletter button, .contact button, .trivia button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #9f2b25; /* Vintage red for buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #9f2b25; /* Vintage red for footer */
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Gallery Styling */
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 100%;
+    max-width: 400px;
+    border: 5px solid #d9ad8b; /* Light beige border for images */
+    border-radius: 8px;
+}
+
+/* Trivia Section Styling */
+.trivia-question {
+    margin-bottom: 40px;
+}
+
+.trivia-question h3 {
+    font-size: 2rem;
+    color: #9f2b25;
+}
+
+.trivia-question p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.trivia-question ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.trivia-question input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Submit Button for Trivia */
+.submit-trivia-btn {
+    background-color: #9f2b25;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Additional Styles for Form Elements */
+input[type="email"], input[type="text"], textarea {
+    width: 70%;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #d9ad8b; /* Light beige border */
+}
+
+button[type="submit"] {
+    background-color: #9f2b25; /* Vintage red for submit button */
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: #7d1b18; /* Darker red on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .intro h3, .features h2, .history h2, .about h2, .gallery h2, .contact h2, .trivia h2, .newsletter h2 {
+        font-size: 2.5rem;
+    }
+
+    .intro p, .features p, .history p, .about p, .gallery p, .contact p, .trivia p, .newsletter p {
+        font-size: 1.2rem;
+    }
+
+    .newsletter input, .contact input, .contact textarea, .trivia input {
+        width: 80%;
+    }
+
+    .newsletter button, .contact button, .trivia button {
+        font-size: 1.2rem;
+        width: 80%;
+    }
+}
